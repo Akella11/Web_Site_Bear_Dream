@@ -1,7 +1,11 @@
 *{
     background: #733026;
 }
-
+.submit1{
+    margin: 1% 35% 0.75% 20%;
+    color: #F5E9E9;
+    font-family: 'Labrada', serif;
+}
 .flex-container1{
     display: flex;
     background-size: 500px;
@@ -103,7 +107,7 @@
     font-size: 200%;
     margin: 5% 11% 2.5% 11%
 }
-.button1{
+.submit2{
     background-color: #DCC7BE;
     border-radius: 30px;
     color: #010100;
@@ -116,7 +120,7 @@
     margin: 6% 32% 3%;
     cursor: pointer;
 }
-.button2{
+.submit3{
     background-color: #DCC7BE;
     border-radius: 30px;
     color: #010100;
@@ -146,7 +150,7 @@
     *{
         font-size: 110%;
     }
-    .button1{
+    .submit2{
         background-color: #DCC7BE;
         border-radius: 30px;
         color: #010100;
@@ -159,7 +163,7 @@
         margin: 6% 27% 3%;
         cursor: pointer;
     }
-    .button2{
+    .submit3{
         background-color: #DCC7BE;
         border-radius: 30px;
         color: #010100;
@@ -179,6 +183,12 @@
 @media (min-width: 480px) and (max-width: 1024px) {
     p {
         font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+    .submit2{
+        font-size: 96%;
+    }
+    .submit3{
+        font-size: 96%;
     }
 }
 @media (min-width: 1000px) and (max-width: 1300px) {
