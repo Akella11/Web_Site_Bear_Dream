@@ -1,3 +1,22 @@
+<?php
+if(isset($_POST("submit1"))){
+header('Location:Bear_Dream_Information.html');
+}
+?>
+
+<?php
+if(isset($_POST("submit2"))){
+header('Location:Bear_Dream_Conteiner.html');
+}
+?>
+
+<?php
+if(isset($_POST("submit3"))){
+header('Location:Bear_Dream_Information.html');
+}
+?>
+
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -15,7 +34,9 @@
         <p class="p1" >Ведмежа мрія</p>
         <p class="p2">Благодійна організація з допомоги тваринам</p>
     </div>
-    <a href="Bear_Dream_Information.html" class="p3">Про нас</a>
+    <form name="form1" action="Bear_Dream_Information.html" class="p3" method="post">
+        <input class="submit1" type="submit" name="submit1" value="Про нас" >
+    </form>
     <div class="flex-container3">
         <p class="p4">Наші контакти</p>
         <p class="p5">+3809947367</p>
@@ -38,8 +59,12 @@
     за допомогою кнопки “Дізнатись більше”. Бажаємо гарного дня!"</div>
 </div>
 <div class="flex-container4">
-    <a href="Bear_Dream_Conteiner.html" class="button1" >Допомогти тваринам</a>
-    <a href="Bear_Dream_Information.html" class="button2">Дізнатись більше</a>
+    <form name="form1" action="Bear_Dream_Conteiner.html" method="post">
+        <input class="submit2" type="submit" name="submit2" value="Допомогти тваринам" >
+    </form>
+    <form name="form1" action="Bear_Dream_Information.html" method="post">
+        <input class="submit3" type="submit" name="submit3" value="Дізнатись більше" >
+    </form>
 </div>
 <div class="flex-container5">
     <div class="flex-container6">
