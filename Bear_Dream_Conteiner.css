@@ -2,6 +2,19 @@
     background: #733026;
 }
 
+.submit1{
+    margin: 1% 35% 0.75% 20%;
+    color: #F5E9E9;
+    font-family: 'Labrada', serif;
+}
+
+.form1{
+    width: 300%;
+    margin: 0.5% 5% 0.75% 40%;
+    color: #F5E9E9;
+    font-family: 'Labrada', serif;
+}
+
 .flex-container1{
     display: flex;
     background-size: 500px;
