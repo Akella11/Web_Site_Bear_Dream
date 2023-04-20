@@ -1,3 +1,9 @@
+<?php
+if(isset($_POST("submit1"))){
+header('Location:Bear_Dream.html');
+}
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -16,7 +22,9 @@
       <p class="p1" >Ведмежа мрія</p>
       <p class="p2">Благодійна організація з допомоги тваринам</p>
     </div>
-    <a href="Bear_Dream.html" class="p3">На головну</a>
+    <form name="form1" action="Bear_Dream.html" class="p3" method="post">
+      <input class="submit1" type="submit" name="submit1" value="На головну" >
+    </form>
     <div class="flex-container3">
       <p class="p4">Наші контакти</p>
       <p class="p5">+3809947367</p>
